@@ -8,6 +8,7 @@ echo "karabiner complex-modification apply"
 
 tree
 
-cp -apv `ls | grep \\.json$` "/Users/taesoo/.config/karabiner/assets/complex_modifications/"
+mkdir -p ~/.config/karabiner/assets/complex_modifications
+cp -apv `ls | grep \\.json$` "$HOME/.config/karabiner/assets/complex_modifications/"
 
 echo "script end"
